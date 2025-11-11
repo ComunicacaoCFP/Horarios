@@ -1,0 +1,27 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    width: 99%;
+    padding: 10px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+    top: 0;
+    left: 0;
+    position: relative;
+}
+.wrapper > p{
+    font-size: larger;
+    color: #2c66ce;
+}
+img{
+    width: 10%;
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+a{
+    text-decoration: none;
+}

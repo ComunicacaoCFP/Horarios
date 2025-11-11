@@ -1,0 +1,32 @@
+<div class="wrapper">
+    <div class="cabecalho">
+        <select name = "professor" class="form-control" id="professorid" [(ngModel)]="selected.professor" (change)="onChangeObj()" required>
+            <option value="" disabled>Selecione o Professor</option>            
+            <option *ngFor="let p of professores" value={{p}}>{{p}}</option>
+        </select>
+    <label for="professorid">Professor</label>
+    </div>
+    
+    <div class="tabela">
+        <div *ngFor="let i of [ 0, 1, 2, 3, 4, 5, 6]">
+            <div style="height: 20px; width: 50px;" *ngIf="i == 0"> </div>
+            <div style="height: 20px; width: 50px;" *ngIf="i == 1">SEG</div>
+            <div style="height: 20px; width: 50px;" *ngIf="i == 2">TER</div>
+            <div style="height: 20px; width: 50px;" *ngIf="i == 3">QUA</div>
+            <div style="height: 20px; width: 50px;" *ngIf="i == 4">QUI</div>
+            <div style="height: 20px; width: 50px;" *ngIf="i == 5">SEX</div>
+            <div style="height: 20px; width: 50px;" *ngIf="i == 6">SAB</div>
+            <div *ngFor="let j of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]">
+                <div style="height: 20px; width: 50px;" *ngIf="i == 0"> {{matriz[(i*29) + j].horario}}</div>
+            </div>
+            <div name="interna" *ngFor="let j of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]">
+                <div style="height: 20px; width: 80px;" *ngIf="i != 0"> {{matriz[((i-1)*29) + j].codigo}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="legenda">
+        <div *ngFor = "let a of atual" style="display: flex;">
+            <div style="height: 20px; width: 80px; color: {{a.letra}}; background-color: {{a.cor}};">{{a.codigo}}</div><div>{{a.componente}}</div>
+        </div>
+    </div>
+</div>
