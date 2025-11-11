@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.legenda > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    border-radius: 5px;
+}
+.tabela{
+    display: flex; 
+    padding: 10px; 
+    background: beige;
+    border-radius: 10px;   
+}
+.tabela > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+.tabela > div > div > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+}
+.tabela > div > div{
+    border-radius: 5px;
+}
+.cabecalho{
+    display: flex;    
+    width: 80vw;
+    justify-content: center;
+    padding: 10px;
+}
+label, select{
+    margin: 5px;
+}
