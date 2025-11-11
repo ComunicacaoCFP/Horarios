@@ -1,0 +1,67 @@
+{
+  "hash": "3c9136fd",
+  "configHash": "773a0191",
+  "lockfileHash": "2e3ef137",
+  "browserHash": "fd4ddaab",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "83ab2160",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "2993e09e",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "34dc48c7",
+      "needsInterop": false
+    },
+    "read-excel-file/node": {
+      "src": "../../../../../../node_modules/read-excel-file/node/index.js",
+      "file": "read-excel-file_node.js",
+      "fileHash": "28ecfe81",
+      "needsInterop": false
+    },
+    "xlsx": {
+      "src": "../../../../../../node_modules/xlsx/xlsx.mjs",
+      "file": "xlsx.js",
+      "fileHash": "47083533",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "e50b6f0b",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "fe697b3c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-XTKJD2KJ": {
+      "file": "chunk-XTKJD2KJ.js"
+    },
+    "chunk-J2WUSADS": {
+      "file": "chunk-J2WUSADS.js"
+    },
+    "chunk-XXCPP54Z": {
+      "file": "chunk-XXCPP54Z.js"
+    },
+    "chunk-RTSB6WCL": {
+      "file": "chunk-RTSB6WCL.js"
+    },
+    "chunk-7LH2HVYR": {
+      "file": "chunk-7LH2HVYR.js"
+    }
+  }
+}
